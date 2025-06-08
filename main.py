@@ -14,7 +14,8 @@ app.mount("/static", StaticFiles(directory="static"), name="static")
 templates = Jinja2Templates(directory="templates")
 
 # Excel en OneDrive
-RUTA_EXCEL = r"C:\Users\cordi\OneDrive - ARG Consultores y servicios S.A.S\02. PERSONAL\consecutivos\01. Correspondencia contratos en ejecución (1).xlsx"
+RUTA_EXCEL = "consecutivos.xlsx"
+
 
 # Usuario / contraseña prueba
 USERS = {"admin": "1234", "usuario1": "clave1"}
