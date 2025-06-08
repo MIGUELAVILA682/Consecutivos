@@ -1,6 +1,4 @@
 fastapi
-uvicorn[standard]
-pandas
-openpyxl
+uvicorn
 jinja2
-python-multipart
+sqlite3
